@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS UTILITY CLASSES */
+.col-1_6{
+    width: calc(100% / 6);
+}
+
+.col-2_6{
+    width: calc(100% / 6 * 2);
+}
+
+.col-4_6{
+    width: calc(100% / 6 * 4);
+}
+
+.font-small {
+    font-size: 12px;
+}
+
+.font-normal {
+    font-size: 16px;
+}
+
+.font-large {
+    font-size: 20px;
+}
+
+/*===========================*/
+/*===========================*/
+
+
+.hero {
+    background-image: url(../img/jumbo.png); 
+}
