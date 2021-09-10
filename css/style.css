@@ -21,7 +21,7 @@
 
 .hr-container-center__nav {
     padding: 10px 0;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 49.98px;
     color: white;
 }
@@ -90,6 +90,14 @@
 .hr-container-center__hero-text__link-box {
     padding: 20px 0;
     font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hr-container-center__hero-text__link-box::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .hr-container-center__hero-text__link-box--white {
@@ -98,7 +106,7 @@
     border-radius: 40px;
     padding: 10px;
     text-decoration: none;
-    margin-right: 20px;
+    float: left;
 }
 
 .hr-container-center__hero-text__link-box--black {
@@ -107,9 +115,95 @@
     border-radius: 40px;
     padding: 10px;
     text-decoration: none;
-    margin-left: 20px;
+    float: right;
 }
 
+/* MAIN */
 
+.mn-container-center {
+    padding: 0 15%;
+    margin: 0 auto;
+    color: rgb(44, 44, 44);
+}
 
+.mn-container-center__section,
+.mn-container-center__section-big{
+    padding: 80px 0;
+}
 
+.mn-container-center__section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mn-container-center__section__img {
+    float: left;
+    width: calc(100% / 6 * 4);
+}
+
+.mn-container-center__section__text {
+    float: left;
+    width: calc(100% / 6 * 2);
+    padding: 30px 0;
+}
+
+.mn-container-center__section__text__h1,
+.mn-container-center__section-big__text__h1 {
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.mn-container-center__section__text__p,
+.mn-container-center__section-big__text__p {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.mn-container-center__section-big__img {
+    width: 100%;
+}
+
+.mn-container-center__section-big__text {
+    width: 90%;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mn-container-center__section-big__bottom {
+    width: calc(100% / 6 *3);
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.mn-container-center__section-big__bottom__h2 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mn-container-center__section-big__bottom__img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mn-container-center__section-big__download {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.mn-container-center__section-big__download__link {
+    color: white;
+    background-color: rgb(162, 161, 209);
+    border-radius: 40px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
