@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
@@ -75,7 +76,7 @@
             </section>
             <!-- MAIN 3/4 -->
             <section class="mn-container-center__section">
-                <img src="img/item3.svg" alt="img-3">
+                <img class="mn-container-center__section__img" src="img/item3.svg" alt="img-3">
                 <section class="mn-container-center__section__text">
                     <h1 class="mn-container-center__section__text__h1">Da pochi a un fandom</h1>
                     <p class="mn-container-center__section__text__p">Dai inizio a una comunity di qualsiasi dimensione
@@ -91,82 +92,91 @@
                     </h1>
                     <p class="mn-container-center__section-big__text__p">Video e audio a bassa latenza ti faranno
                         sentire come se foste tutti nella stessa stanza. Fai
-                        ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegnp con
+                        ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con
                         la condivisione schermo.</p>
                 </section>
                 <img class="mn-container-center__section-big__img" src="img/item4-big.svg" alt="img-4">
                 <!-- TEXT + DOWNLOAD -->
                 <div class="mn-container-center__section-big__bottom">
                     <img class="mn-container-center__section-big__bottom__img" src="img/stars.svg" alt="img-stars">
-                    <h2 class="mn-container-center__section-big__bottom__h2">Pronto a iniziare la tua avventura?</h2>         
+                    <h2 class="mn-container-center__section-big__bottom__h2">Pronto a iniziare la tua avventura?</h2>
                 </div>
                 <div class="mn-container-center__section-big__download">
                     <a class="mn-container-center__section-big__download__link" href="#">&#8595; Scarica per Mac</a>
-                </div>               
+                </div>
             </section>
         </div>
     </main>
 
-    <footer>
+    <footer class="footer-bg">
         <!-- CONTAINER CENTER -->
-        <div>
-            <section>
+        <div class="fr-container-center">            
                 <!-- TEXT + SELECT + ICON -->
-                <div>
-                    <h2></h2>
-                    <select name="lang" id="">
+                <div class="fr-container-center__left">
+                    <h2 class="fr-container-center__left__h2">Il tuo posto per parlare</h2>
+                    <select class="fr-container-center__left__select" name="ita-lang" id="ita-lang">
                         <option value="ita">Italiano</option>
+                        <option value="ita">Inglese</option>
                     </select>
                     <!-- ICON -->
-                    <div></div>
+                    <div class="fr-container-center__left__icons">
+                        <i class="fab fa-twitter fr-container-center__left__icons--twitter"></i>
+                        <i class="fab fa-instagram fr-container-center__left__icons--instagram"></i>
+                        <i class="fab fa-facebook fr-container-center__left__icons--facebook"></i>
+                        <i class="fab fa-youtube fr-container-center__left__icons--youtube"></i>
+                    </div>
                 </div>
                 <!-- LIST X 4 -->
-                <div>
+                <div class="fr-container-center__lists">
                     <!-- LIST 1/4 -->
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul class="fr-container-center__lists__ul">
+                        <li class="fr-container-center__lists__ul__li--top">Prodotto</li>
+                        <li ><a href="#" class="fr-container-center__lists__ul__li">Scarica</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Perchè Discord</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Nitro</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Sicurezza</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Assistenza</a></li>
                     </ul>
                     <!-- LIST 2/4 -->
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul class="fr-container-center__lists__ul">
+                        <li class="fr-container-center__lists__ul__li--top">Compagnia</li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Chi siamo</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Lavora con noi</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Marchio</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Redazione</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Negozio</a></li>
                     </ul>
                     <!-- LIST 3/4 -->
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul class="fr-container-center__lists__ul">
+                        <li class="fr-container-center__lists__ul__li--top">Risorse</li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Scarica</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Perchè Discord</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Nitro</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Sicurezza</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Assistenza</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Scarica</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Perchè Discord</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Nitro</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Sicurezza</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Assistenza</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Assistenza</a></li>
                     </ul>
                     <!-- LIST 4/4 -->
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul class="fr-container-center__lists__ul">
+                        <li class="fr-container-center__lists__ul__li--top">Norme</li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Scarica</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Perchè Discord</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Nitro</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Sicurezza</a></li>
+                        <li><a href="#" class="fr-container-center__lists__ul__li">Assistenza</a></li>
                     </ul>
                 </div>
                 <!-- LOGO + LINK -->
-                <div>
-                    <img src="" alt="logo">
-                    <a href="#"></a>
+                <div class="fr-container-center__bottom">
+                    <img class="fr-container-center__bottom__img" src="img/logo.svg" alt="logo">
+                    <a href="#" class="fr-container-center__bottom__link">Registrati</a>
                 </div>
-            </section>
+            
         </div>
     </footer>
 
